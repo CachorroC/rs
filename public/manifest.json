@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "R&S",
+  "name": "R&S Consultoría Jurídica",
+  "description": "description",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/mstile-70x70.png",
+      "sizes": "70x70",
+      "type": "image/png",
+      "purpose": "any maskable monochrome"
+    }
+  ],
+  "background_color": "#3b2d81",
+  "theme_color": "#a700b0",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "any"
+}

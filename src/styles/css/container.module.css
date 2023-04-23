@@ -1,0 +1,9 @@
+.box {
+  background-color: var(--sf-2);
+  color: var(--on-surface);
+  border: 1rem dashed var(--tertiary);
+  box-shadow: var(--dp4);
+  padding: 2vmin;
+}
+
+/*# sourceMappingURL=container.module.css.map */

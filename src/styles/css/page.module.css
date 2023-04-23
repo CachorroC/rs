@@ -1,0 +1,75 @@
+.section {
+  background-color: var(--sf-1);
+  box-shadow: var(--dp2);
+  margin: 2vmin;
+  padding: 2vmin;
+}
+.section .h1 {
+  color: var(--tertiary);
+  text-align: center;
+  margin-bottom: 2vmin;
+}
+.section .group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  box-shadow: var(--dp0);
+  background-color: var(--sf-2);
+  padding: 2vh;
+  box-sizing: border-box;
+  gap: 2vh;
+  height: auto;
+}
+.section .group .module {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vmin;
+  flex-flow: row nowrap;
+}
+.section .group .module > span {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+.section .group .module:link {
+  background-color: var(--sf-1);
+  box-shadow: var(--dp1);
+}
+.section .group .module:link .h2, .section .group .module:link > span, .section .group .module:link > p {
+  color: var(--on-secondary-container);
+}
+.section .group .module:visited {
+  background-color: var(--sf-1);
+  box-shadow: var(--dp0);
+}
+.section .group .module:visited .h2, .section .group .module:visited > span, .section .group .module:visited > p {
+  color: var(--on-surface);
+}
+.section .group .module:hover, .section .group .module:active {
+  background-color: var(--primary-container);
+  box-shadow: var(--dp8);
+  color: var(--on-primary-container);
+}
+.section .group .module:hover > p,
+.section .group .module:hover .h2, .section .group .module:active > p,
+.section .group .module:active .h2 {
+  color: var(--on-primary-container);
+  font-weight: 800;
+}
+.section .group .module:hover > span, .section .group .module:active > span {
+  font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 200, "opsz" 48;
+  color: var(--primary);
+}
+@media screen and (max-width: 1000px) {
+  .section .group {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(10vh, auto);
+  }
+}
+@media screen and (max-width: 700px) {
+  .section .group {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(10vh, auto);
+  }
+}
+
+/*# sourceMappingURL=page.module.css.map */

@@ -1,0 +1,10 @@
+.title {
+  color: var(--primary);
+  font-family: "Poiret One";
+  font-size: 2rem;
+  text-align: center;
+  padding: 2vmin;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=typeface.module.css.map */

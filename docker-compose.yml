@@ -1,0 +1,42 @@
+version: "3"
+
+services:
+  app:
+    container_name: app
+    hostname: app
+    image: myapp:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    #env_file: .env
+    environment:
+      - MONGODB_URI="mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority"
+    volumes:
+      - ./:/app
+    restart: always
+    expose:
+      - 3000
+    networks:
+      - internal
+      - external
+  cloudflared:
+    image: cloudflare/cloudflared:latest #update the verion where necessary
+    container_name: cloudflared
+    restart: always
+    networks:
+      - external
+      - internal
+    command: tunnel --no-autoupdate run --token
+      eyJhIjoiZWQ2NmE1NDZlYWVhMWNlMDBlYjE2YmI1Yzc1NmFkY2EiLCJ0IjoiYzI2MmFhYTYtOTVkYi00YzE5LTk4NzktZTI2YzMwMTg1YmU4IiwicyI6Ik1HSTRNR05pT0RndE4ySXpNUzAwWWpjeUxUa3laakl0TmpZMll6WTBZMk16TVRSaiJ9
+    volumes:
+      - ./cloudflared:/home/nonroot/.cloudflared/
+#
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  external:
+    external: true
+    name: external
+  internal:
+    external: true
+    name: internal

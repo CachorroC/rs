@@ -1,0 +1,11 @@
+.notFound {
+  width: 80vw;
+  height: 80vh;
+  position: fixed;
+  top: 10vh;
+  right: 10vw;
+  background-color: var(--secondary-container);
+  color: var(--on-secondary-container);
+}
+
+/*# sourceMappingURL=notf.module.css.map */

@@ -1,0 +1,99 @@
+{
+  "app": {
+    "config": "./settings.json",
+    "cwd": "./",
+    "deterministicOrder": true,
+    "display": true,
+    "dist": "public/posts/output.json",
+    "filePattern": "**/*.md",
+    "ignore": "*(icon|input)*",
+    "port": 3001,
+    "server": false,
+    "src": "public/",
+    "name": "markdown-json",
+    "metadata": false,
+    "version": "0.0.0"
+  },
+  "data": [
+    {
+      "id": "posts__markdown__happy-ending",
+      "contents": "<h3 id=\"die-trying-to-find\">die trying to find</h3>\n<p><strong>my happy ending</strong></p>\n<ul>\n<li><input disabled=\"\" type=\"checkbox\"> will i</li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"> ever know</li>\n<li><input disabled=\"\" type=\"checkbox\"> what it&#39;s</li>\n<li><input disabled=\"\" type=\"checkbox\"> like</li>\n<li><input disabled=\"\" type=\"checkbox\"> to be fine without pretending</li>\n</ul>\n<h2 id=\"that-my-sking-isnt-crawling\">that my sking isn&#39;t <strong>crawling</strong></h2>\n",
+      "title": "am i gonna",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.",
+      "coverImage": "/assets/blog/preview/cover.jpg",
+      "date": 20230322,
+      "idProceso": "2023-03-22",
+      "dia": 22,
+      "mes": 3,
+      "ano": 2023,
+      "author": {
+        "name": "CacxhorroC",
+        "picture": "/assets/blog/authors/joe.jpeg"
+      }
+    },
+    {
+      "id": "posts__markdown__hello-world",
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.</p>\n<p>Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.</p>\n<h2 id=\"lorem-ipsum\">Lorem Ipsum</h2>\n<p>Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.</p>\n",
+      "title": "Preview Mode for Static Generation",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.",
+      "coverImage": "/assets/blog/preview/cover.jpg",
+      "date": 20210316,
+      "idProceso": "2021-03-16",
+      "dia": 16,
+      "mes": 3,
+      "ano": 2021,
+      "author": {
+        "name": "CacxhorroC",
+        "picture": "/assets/blog/authors/joe.jpeg"
+      }
+    },
+    {
+      "id": "posts__markdown__metgod",
+      "contents": "<h1 id=\"just-for-a-minute\">just for a minute</h1>\n<p>I sat in his <strong>house</strong>, took a look around. And saw i couldn&#39;t <strong>fit in</strong>.</p>\n<h2 id=\"i-tried-love\">i tried love</h2>\n<ul>\n<li>gave me something to believe in</li>\n</ul>\n",
+      "title": "I met god",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.",
+      "coverImage": "/assets/blog/preview/cover.jpg",
+      "date": 20230322,
+      "idProceso": "2022-03-22",
+      "dia": 22,
+      "mes": 3,
+      "ano": 2022,
+      "author": {
+        "name": "CacxhorroC",
+        "picture": "/assets/blog/authors/joe.jpeg"
+      }
+    },
+    {
+      "id": "posts__markdown__preview",
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.</p>\n<p>Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.</p>\n<h2 id=\"lorem-ipsum\">Lorem Ipsum</h2>\n<p>Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.</p>\n",
+      "title": "Preview Mode for Static Generation",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.",
+      "coverImage": "/assets/blog/preview/cover.jpg",
+      "date": 20200316,
+      "idProceso": "2020-03-16",
+      "dia": 16,
+      "mes": 3,
+      "ano": 2020,
+      "author": {
+        "name": "CacxhorroC",
+        "picture": "/assets/blog/authors/joe.jpeg"
+      }
+    },
+    {
+      "id": "posts__markdown__zettle",
+      "contents": "<h1 id=\"hello-nextjs\">Hello, Next.js!</h1>\n<h2 id=\"lorem-ipsum-dolor-sit-amet\">Lorem ipsum dolor sit amet.</h2>\n<h1 id=\"introduction\">Introduction</h1>\n<p>Welcome to <a href=\"https://znotes.thedoc.eu.org/\">Zettel Notes</a> Markdown Note\ntaking app for android Zettel notes provides seamless private\nzettelkasten and markdown note taking experience with synchronization\nand encryption. It is provided free of cost, without ads and with no\nhidden permissions. No user data is collected. Notes are stored as\nseparate markdown files (no vendor lock-in like other apps). You should\ncreate a new repository selecting your existing notes folder from the\nRepositories option in menu.</p>\n<h2 id=\"features\">FEATURES</h2>\n<ul>\n<li>Completely offline / No account Required</li>\n<li>Material design themes</li>\n<li>Synchronization</li>\n<li>Dropbox</li>\n<li>Git sync with Github, Gitlab and any private git repository (only Android 8 and above)</li>\n<li>SFTP</li>\n<li>WebDAV</li>\n<li>Encryption</li>\n<li>PGP key</li>\n<li>Password encryption</li>\n<li>Different types of Notes</li>\n<li>Markdown Note (Default)</li>\n<li>Task Note</li>\n<li>Drawing Note</li>\n<li>Audio Note</li>\n<li>Plugins<ul>\n<li><a href=\"https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.location\">Location</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.textutils\">Text UtilsPlugin</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.speech2text\">Speech2Text</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.translate\">Translate</a></li>\n</ul>\n</li>\n<li>Calendar View</li>\n<li>Multiple repositories / vaults / note folders</li>\n<li>Customizable <code>Default Text</code> and <code>Date Format</code> for each repository</li>\n<li>Supports sub-folders -</li>\n<li>Full text search -</li>\n<li>Bookmark / Pin notes -</li>\n<li>Template support -</li>\n<li>Sort notes by alphabetical, edited time, creation time, words, frequency of opening -</li>\n<li>Share text from any app to create new note or append to existing note -</li>\n<li>Share Web page URL to create new markdown note -</li>\n<li>Share Notes -</li>\n<li>MD / TXT / ORG file support</li>\n</ul>\n<h2 id=\"zettelkasten-features\">ZETTELKASTEN FEATURES</h2>\n<ul>\n<li>Show Note Back-links - Wiki style links between notes -</li>\n<li>type [[ toshow note dialog and select to insert markdown link for the note - Tags - Tags are denoted by #tag or specifying tag in yaml - type ## or #?\nto show tags search dialog</li>\n<li>Authors - Authors are denoted by @author or specifying author in yaml<ul>\n<li>type @@ to show author search dialog</li>\n</ul>\n</li>\n<li>Extract new note while editing - Customisable button bar</li>\n</ul>\n<h2 id=\"markdown-features\">MARKDOWN FEATURES</h2>\n<ul>\n<li>Italics (<code>*</code>, <code>_</code>) _ Bold (<code>**</code>, <code>__</code>) _ Strike-through (<code>~~</code>) _\nSpoiler (<code>&gt;!!&lt;</code>) _ Headers (<code>#{1,6}</code>) _ Links (<code>[]()</code> &amp;&amp; <code>[][]</code>) _\nImages * Thematic break (<code>---</code>, <code>***</code>, <code>___</code>) _ Quotes (<code>&gt;</code>) _ Lists _\nInline code highlight _ Code blocks _ Tables _ LaTeX formulas _\nFootnotes _ Table of Content ( add [TOC] tag ) _ Toggleable Task lists\n(<code>- [ ]</code> and <code>- [x]</code>) _ HTML\n_ Emphasis (<code>&lt;i&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;cite&gt;</code>, <code>&lt;dfn&gt;</code>) _ Strong emphasis\n(<code>&lt;b&gt;</code>, <code>&lt;strong&gt;</code>) _ SuperScript (<code>&lt;sup&gt;</code>) _ SubScript (<code>&lt;sub&gt;</code>) _\nUnderline (<code>&lt;u&gt;</code>, <code>ins</code>) _ Strike-through (<code>&lt;s&gt;</code>, <code>&lt;strike&gt;</code>,\n<code>&lt;del&gt;</code>) _ Link (<code>a</code>) _ Lists (<code>ul</code>, <code>ol</code>) _ Blockquote\n(<code>blockquote</code>) _ Heading (<code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code>)</li>\n</ul>\n<h2 id=\"contact-us\">Contact Us</h2>\n<p>If you have any issues, feel free to contact via -\n<a href=\"mailto:info@thedoc.eu.org\">info@thedoc.eu.org</a> - <a href=\"https://groups.google.com/g/znotes\">Google\nGroup</a> - <a href=\"https://t.me/zettelnotes\">Telegram\nChannel</a> - <a href=\"https://t.me/joinchat/DZ2eFcOk3Mo4MDk1\">Telegram Support\nGroup</a></p>\n<h2 id=\"privacy-policy\">Privacy Policy</h2>\n<p><a href=\"https://thedoc.eu.org/zettel-notes/privacy\">Privacy Policy</a></p>\n",
+      "title": "Preview Mode for Static Generation",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.",
+      "coverImage": "/assets/blog/preview/cover.jpg",
+      "date": 20190316,
+      "idProceso": "2019-03-16",
+      "dia": 16,
+      "mes": 3,
+      "ano": 2019,
+      "author": {
+        "name": "CacxhorroC",
+        "picture": "/assets/blog/authors/joe.jpeg"
+      }
+    }
+  ]
+}

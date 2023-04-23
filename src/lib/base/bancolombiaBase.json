@@ -1,0 +1,1723 @@
+[
+  {
+    "carpeta": 14,
+
+    "deudor": {
+      "direccion": "carrera 77b no. 68b - 19 barrio santa helenita",
+      "email": "yess_id@hotmail.com",
+      "id": 1077969975,
+      "name": "yesid albeiro ramos",
+      "tel": {
+        "celular": 3212337597
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "emplazamiento",
+      "fecha": {
+        "mandamientodepago": 42888,
+        "presentaciondemanda": 42879
+      }
+    },
+
+    "juzgado": {
+      "idProceso": 50468620,
+      "capitaladeudado": "$ 33.791.309",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+
+      "expediente": "11001400300320170088400",
+      "fecha": {
+        "entregagarantiasabogado": "11/05/2017",
+        "vencimientopagare": "4/05/2020"
+      },
+      "locationjuzgado": "hmm piso 5",
+      "obligacion": {
+        "1": 2530444
+      },
+      "origen": "3 cm",
+      "procesotype": "prendario",
+      "radicado": "2017 - 00884"
+    },
+    "medidascautelares": {
+      "bienes": "vehiculo",
+      "descripmedida": "automovil modelo 2017 marca chevrolet color rojo velvet servicioparticular  mini spark",
+      "fecha": {
+        "decretosecuestro": "3/20/10",
+
+        "radicacion": "31/05/2018",
+        "retirooficios": "28/09/2017"
+      },
+      "medidasolicita": "vehiculo",
+      "oficio": {
+        "fecha": {
+          "": "bogota"
+        },
+        "id": 2166
+      },
+      "placas": "iym-870",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "aportanotif": "11/07/2018"
+        }
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "11/07/2018"
+        },
+        "resultado": "3/31/01"
+      },
+
+      "fecha": {
+        "autonotificado": "11/07/2018"
+      },
+
+      "type": {}
+    },
+    "secuestro": {
+      "extra": "la principal sas"
+    },
+    "secuestros": {
+      "fecha": {
+        "captura": 43315,
+        "secuestro": "pendiente"
+      }
+    }
+  },
+  {
+    "carpeta": 86,
+
+    "codeudor": {
+      "id": 1015435620,
+      "name": "jesica paola guzman ospina"
+    },
+    "deudor": {
+      "direccion": "carrera 95 # 138 - 58",
+      "email": "orduzcrit2@hotmail.com",
+      "id": 1032432802,
+      "name": "luis esneider orduz farfan"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecucion",
+      "fecha": {
+        "mandamientodepago": "10/07/2017",
+        "presentaciondemanda": "20/06/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 26.515.333",
+      "ciudadjuzgado": "bogota",
+      "idProceso": 50521480,
+      "depto": "cundinamarca",
+      "ejecucion": "12 cme",
+      "expediente": "11001400303420170083600",
+      "fecha": {
+        "entregagarantiasabogado": "31/12/1899",
+        "vencimientopagare": "9/06/2020"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 12330030
+      },
+      "origen": "34 cm",
+      "procesotype": "prendario",
+      "radicado": "2017 - 00836"
+    },
+    "medidascautelares": {
+      "bienes": "vehiculo",
+      "descripmedida": "vehiculo",
+      "fecha": {
+        "ordenamedidascautelares": "10/07/2017",
+        "radicacion": "24/08/2018",
+        "retirooficios": "24/08/2017",
+        "solicitudcaptura": "11/04/2019"
+      },
+      "medidasolicita": "vehiculo",
+      "oficio": {
+        "fecha": {
+          "": "17/07/2017"
+        },
+        "id": 1355
+      },
+      "placas": "ubk-333",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "2/12/2018",
+          "aportanotif": "18/07/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "18/07/2018"
+        },
+        "resultado": true
+      },
+      "certimail": false,
+      "fecha": {
+        "autonotificado": "25/01/2019"
+      },
+      "fisico": true,
+      "type": {
+        "": "emplazamiento"
+      }
+    }
+  },
+  {
+    "avaluo": {
+      "valoravaluo": "se envia solicitud oficio para enviar por el juzgado a salud total eps // proceso irrecuperable"
+    },
+
+    "carpeta": 98,
+
+    "deudor": {
+      "direccion": "call 2 no. 8-40 el colegio",
+
+      "id": 1070329396,
+      "name": "erika alejandra quintero reyes",
+      "tel": {
+        "celular": 3114456631
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "7/11/2017",
+        "presentaciondemanda": "15/06/2017 // 29/08/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 50.000.000",
+      "ciudadjuzgado": "mesitas",
+      "depto": "cundinamarca",
+
+      "expediente": 2.524540890012017e22,
+      "fecha": {
+        "entregagarantiasabogado": "12/06/2017",
+        "vencimientopagare": "5/07/2019"
+      },
+      "locationjuzgado": "el colegio",
+      "obligacion": {
+        "1": 7300080586
+      },
+      "origen": "001 pm",
+      "procesotype": "singular",
+      "radicado": "2017 - 00239"
+    },
+    "medidascautelares": {
+      "bienes": "bancos",
+      "descripmedida": "retencion dineros",
+      "fecha": {
+        "ordenamedidascautelares": "7/11/2017",
+        "radicacion": "2/02/2023",
+        "retirooficios": 1461
+      },
+      "medidasolicita": "embargo de dineros en bancos",
+      "oficio": {
+        "fecha": {
+          "": "15/11/2017"
+        },
+        "id": 1461
+      },
+
+      "respuesta": {
+        "embargo": "true davivienda"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "aportanotif": "17/05/2018"
+        }
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "17/05/2018"
+        },
+        "resultado": true
+      },
+
+      "fecha": {
+        "autonotificado": "17/07/2018"
+      },
+
+      "type": {
+        "": "correo"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "presentacionliquidacion": "11/26/18",
+
+        "solicitudliquidacion": "9/4/18"
+      }
+    }
+  },
+  {
+    "carpeta": 116,
+
+    "codeudor": {
+      "direccion": "carrera 3 # 29a - 02 local 1057",
+      "id": 52771090,
+      "name": "yeny esperanza arias mendieta",
+      "tel": {
+        "fijo": 5753416
+      }
+    },
+    "deudor": {
+      "direccion": "carrera 3 # 29a - 02",
+
+      "id": 900212673,
+      "name": "jencell e.u."
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "8/09/2017",
+        "presentaciondemanda": "11/08/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 13.906.249",
+      "ciudadjuzgado": "soacha",
+      "depto": "cundinamarca",
+
+      "expediente": 2.575441890032017e22,
+      "fecha": {
+        "entregagarantiasabogado": "4/08/2017",
+        "vencimientopagare": "12/04/2021"
+      },
+      "locationjuzgado": "soacha",
+      "obligacion": {
+        "1": 6240082776
+      },
+      "origen": "003 pcycm",
+      "procesotype": "singular",
+      "radicado": "2017 - 00755"
+    },
+    "medidascautelares": {
+      "bienes": "bancos",
+      "descripmedida": "solicita embargo de inmueble propiedad de representante legal y codeudora",
+      "fecha": {
+        "ordenamedidascautelares": "8/09/2017",
+        "radicacion": "1/06/2018",
+        "retirooficios": "15/09/2018"
+      },
+      "medidasolicita": "embargo inmueble de la codeudora",
+      "oficio": {
+        "fecha": {
+          "": "15/09/2017"
+        },
+        "id": 1181
+      },
+      "placas": "051-130616",
+      "respuesta": {
+        "embargo": "pendiente oficio"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "12/12/2017",
+          "aportonotif": "12/12/2017"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "12/12/2017"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "9/02/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "aprobracionliquidacion": "8/1/18",
+
+        "presentacionliquidacion": "6/20/18",
+        "sentencia": "2/9/18"
+      },
+
+      "valorliquidacioncredito": 500314967
+    }
+  },
+  {
+    "carpeta": 170,
+
+    "deudor": {
+      "direccion": "calle 74g # 80 - 58 sur",
+      "email": "darnelly-74@hotmail.com",
+      "id": 52189873,
+      "name": "darnelly hernandez martinez",
+      "tel": {
+        "celular": 3144189224
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "18/09/2017",
+        "presentaciondemanda": "28/08/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 14.795.921",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "18 cme",
+      "expediente": 1.100140030252017e22,
+      "fecha": {
+        "entregagarantiasabogado": "22/08/2017",
+        "vencimientopagare": "10/03/2026"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 136962
+      },
+      "origen": "25 cm",
+      "procesotype": "hipotecario",
+      "radicado": "2017 - 00903"
+    },
+    "medidascautelares": {
+      "bienes": "inmueble apto 504",
+      "descripmedida": "inmueble  carrera 88 c n° 62-65 sur",
+      "fecha": {
+        "ordenamedidascautelares": "18/09/2017",
+        "radicacion": "28/01/2018",
+
+        "solicitudcaptura": "22/03/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "25/09/2017"
+        },
+        "id": 3781
+      },
+      "placas": "50s-40552545",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "20/06/2018",
+          "aportonotif": "20/06/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "20/06/2018"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "22/06/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "presentacionliquidacion": "11/01/2019",
+        "sentencia": "22/06/2018"
+      }
+    }
+  },
+  {
+    "avaluo": {
+      "valoravaluo": "solicitar juzgado requerir a secretaria de movilidad de cota las razones por las cuales false se ha registrado medida cautelar vehiculo slj234 // reconoce personeria 31/01/22 // revisar urgente nuevo apoderado cisa // bancolombia false ha cedido a reintegra credito // sept 9 reconoce poder a cisa"
+    },
+
+    "carpeta": 178,
+
+    "deudor": {
+      "direccion": "carrera 81c # 2b - 80 piso 2",
+      "email": "grupocomerciallasabana@hotmail.com",
+      "id": 11185630,
+      "name": "wilson alfonso jimenez mendieta"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "5/09/2017",
+        "presentaciondemanda": "8/08/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 25.833.335",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "17 cme",
+      "expediente": 1.100140030012017e22,
+      "fecha": {
+        "entregagarantiasabogado": "1/08/2017",
+        "vencimientopagare": "3/11/2019"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 2150091504
+      },
+      "origen": "1 cm",
+      "procesotype": "singular",
+      "radicado": "2017 - 01001"
+    },
+    "medidascautelares": {
+      "bienes": "bancos",
+      "descripmedida": "pedir embargo y secuestro vehiculo propiedad del deudor",
+      "fecha": {
+        "ordenamedidascautelares": "5/09/2017"
+      },
+      "medidasolicita": "embargo de dineros en bancos",
+      "oficio": {
+        "fecha": {
+          "": "6/09/2017"
+        },
+        "id": "17-2849"
+      },
+      "placas": "slj234",
+      "respuesta": {
+        "embargo": false
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "6/02/2018",
+          "aportonotif": "6/06/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "6/06/2018"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "22/06/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "correo"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "aprobracionliquidacion": "7/13/18",
+
+        "presentacionliquidacion": "6/29/18",
+
+        "solicitudliquidacion": "6/22/18"
+      }
+    }
+  },
+  {
+    "carpeta": 231,
+
+    "deudor": {
+      "direccion": "diagonal 56 bis 84 a 10 sur tr 1",
+      "email": "fanor.diaz@gmail.com",
+      "id": 79853115,
+      "name": "fanor diaz agudelo",
+      "tel": {
+        "celular": 3212406193
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "21/09/2017",
+        "presentaciondemanda": "18/09/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 27.603.821",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "6 cme",
+      "expediente": 1.100140030082017e22,
+      "fecha": {
+        "entregagarantiasabogado": "6/09/2017",
+        "vencimientopagare": "14/02/2017"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 148931
+      },
+      "origen": "8 cm",
+      "procesotype": "hipotecario",
+      "radicado": "2017 - 01134"
+    },
+    "medidascautelares": {
+      "bienes": "inmueble",
+      "descripmedida": "apartamento 502 int. 17 conjunto residncial alondra  p.h.  diagonal 56 bis sur n° 84 a -20",
+      "fecha": {
+        "ordenamedidascautelares": "21/09/2017",
+        "radicacion": "15/05/2018",
+        "retirooficios": "4/10/2017"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "4/10/2017"
+        },
+        "id": 2746
+      },
+      "placas": "50s-40590187",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "6/02/2018",
+          "aportonotif": "6/02/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "6/02/2018"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "7/05/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "presentacionliquidacion": "1/11/19",
+        "sentencia": "7/16/18",
+        "solicitudliquidacion": "7/24/18"
+      }
+    }
+  },
+  {
+    "carpeta": 274,
+
+    "codeudor": {
+      "direccion": "carrera  115 no 89 a - 31 int 12 apart 202",
+      "id": 4337296,
+      "name": "jose noel puerta puerta",
+      "tel": {
+        "fijo": 3103431255
+      }
+    },
+    "deudor": {
+      "direccion": "carrera  101  no 71 b - 53",
+      "email": "natis-rolita@hotmail.con",
+      "id": 35506033,
+      "name": "luz dary puerta jaramillo",
+      "tel": {
+        "celular": 3103430010
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "16/01/2018",
+        "presentaciondemanda": "10/10/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 12.347.548",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "11 cme",
+      "expediente": 1.100140030372017e22,
+      "fecha": {
+        "entregagarantiasabogado": "28/09/2017",
+        "vencimientopagare": "18/03/2019"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 4670083154
+      },
+      "origen": "37 cm",
+      "procesotype": "singular",
+      "radicado": "2017 - 01391"
+    },
+    "medidascautelares": {},
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "30/04/2018",
+          "aportonotif": "14/09/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "8/06/2018",
+          "reciboaviso": "15/05/2018"
+        },
+        "resultado": true
+      },
+      "certimail": false,
+      "fecha": {
+        "autonotificado": "3/09/2018"
+      },
+      "fisico": true,
+      "type": {
+        "": "correo"
+      }
+    }
+  },
+  {
+    "carpeta": 278,
+
+    "codeudor": {
+      "direccion": "dg 3b no. 0-78 este",
+      "id": "41759787 // 39710157",
+      "name": "carmelina aguilar  //  ana lucia aguilar",
+      "tel": {
+        "fijo": "3204613419 //3107627120"
+      }
+    },
+    "deudor": {
+      "direccion": "calle 2 c no 62 - 20",
+      "email": "maifren_13@yahoo.es",
+      "id": 19255260,
+      "name": "matias humberto avila aguilar",
+      "tel": {
+        "celular": 3125024008
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "08/11/2017    09/02/2018",
+        "presentaciondemanda": "10/10/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 66.362.959",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "11 cme",
+      "expediente": 1.100140030152017e22,
+      "fecha": {
+        "entregagarantiasabogado": "21/09/2017",
+        "vencimientopagare": "5/05/2024"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 174366
+      },
+      "origen": "15 cm",
+      "procesotype": "hipotecario",
+      "radicado": "2017 - 01394"
+    },
+    "medidascautelares": {
+      "bienes": "casa",
+
+      "fecha": {
+        "ordenamedidascautelares": "8/11/2017",
+        "radicacion": "12/03/2018",
+        "retirooficios": "16/02/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "16/02/2018"
+        },
+        "id": 284
+      },
+      "placas": "50c-643759",
+      "respuesta": {
+        "embargo": "false embargo eaab//  se embargo remanentes"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "14/02/2018",
+          "aportonotif": "8/06/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "8/06/2018",
+          "reciboaviso": "23/02/2018"
+        },
+        "resultado": true
+      },
+      "certimail": false,
+      "fecha": {
+        "autonotificado": "23/02/2018"
+      },
+      "fisico": true,
+      "type": {
+        "": "correo/ personal"
+      }
+    }
+  },
+  {
+    "avaluo": {
+      "valoravaluo": "retirar del juzgado respuesta de etb y aliansalud eps se radica oficio aclarando cesión del crédito"
+    },
+
+    "carpeta": 289,
+
+    "deudor": {
+      "direccion": "calle 64 sur  no 85 b - 40  apartamento  104",
+      "email": "ars.09@hotmail.com",
+      "id": 1032383389,
+      "name": "anderson revelo santos",
+      "tel": {
+        "celular": 3118526428
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "3/11/2017",
+        "presentaciondemanda": "6/10/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 12.249.598",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "7 cme",
+      "expediente": 1.100140030482017e22,
+      "fecha": {
+        "entregagarantiasabogado": "19/09/2017",
+        "vencimientopagare": "5/03/2020"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": "320088443  / 377813441863587",
+        "2": 4513070212799642
+      },
+      "origen": "48 cm",
+      "procesotype": "singular",
+      "radicado": "2017 - 00974"
+    },
+    "medidascautelares": {
+      "bienes": "apto 104 torre 4",
+      "descripmedida": "embargo de salarios",
+      "fecha": {
+        "ordenamedidascautelares": "3/11/2017",
+        "radicacion": "31/01/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "1/12/2017"
+        },
+        "id": 799
+      },
+      "placas": "50s-40606676",
+      "respuesta": {
+        "embargo": "false nota devolutiva patrimonio de familia"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "30/01/2018",
+          "aportonotif": "30/01/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "30/01/2018"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "23/02/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "aprobracionliquidacion": "6/15/18",
+        "aprovacioncostsas": 700,
+        "presentacionliquidacion": "6/5/18",
+
+        "solicitudliquidacion": "2/23/18"
+      }
+    }
+  },
+  {
+    "avaluo": {
+      "valoravaluo": "validar como irrecuperable"
+    },
+
+    "carpeta": 306,
+
+    "deudor": {
+      "direccion": "carrera 72 a- no 9 - 44 ",
+      "email": "li_bcar@hotmail.com",
+      "id": 79388145,
+      "name": "libardo alfonso gonzalez triviño"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "30/11/2017",
+        "presentaciondemanda": "10/10/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 40.406.421",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "15 cme",
+      "expediente": 1.100140030212017e22,
+      "fecha": {
+        "entregagarantiasabogado": "4/10/2017",
+        "vencimientopagare": "23/03/2020"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": "1740086734 4513073749673967",
+        "2": 5303719549810730
+      },
+      "origen": "21 cm",
+      "procesotype": "singular",
+      "radicado": "2017 - 01532"
+    },
+    "medidascautelares": {
+      "bienes": "vehiculo",
+      "descripmedida": "camioneta publico// envio derecho de peticion para registrar la medida",
+      "fecha": {
+        "ordenamedidascautelares": "30/11/2017",
+        "radicacion": "30/11/2017",
+        "retirooficios": "30/11/2017"
+      },
+      "medidasolicita": "embargo de vehiculo",
+      "oficio": {
+        "fecha": {
+          "": "8/11/2017"
+        },
+        "id": 4273
+      },
+      "placas": "wlq-216",
+      "respuesta": {
+        "embargo": false
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "25/04/2018",
+          "aportonotif": "6/07/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "27/05/2019",
+          "reciboaviso": "27/05/2019"
+        },
+        "resultado": true
+      },
+      "certimail": false,
+      "fecha": {
+        "autonotificado": "17/06/2019"
+      },
+      "fisico": true,
+      "type": {
+        "": "correo"
+      }
+    }
+  },
+  {
+    "carpeta": 312,
+
+    "deudor": {
+      "direccion": "carrera 18 b no 4 c -  20  soacha",
+      "email": "saliradelante2012@hotmail.com",
+      "id": 8799171,
+      "name": "manuel enrique arteaga orozco"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecucion",
+      "fecha": {
+        "mandamientodepago": "24/11/2017",
+        "presentaciondemanda": "1/11/2017"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 44.944.657",
+      "ciudadjuzgado": "soacha",
+      "depto": "cundinamarca",
+
+      "expediente": 2.575440030012017e22,
+      "fecha": {
+        "entregagarantiasabogado": "26/10/2017",
+        "vencimientopagare": "5/01/2030"
+      },
+      "locationjuzgado": "remate del inmueble",
+      "obligacion": {
+        "1": "180049   53037120066499008",
+        "2": "3778133433049336 /4513075801129044"
+      },
+      "origen": "1 cm",
+      "procesotype": "hipotecario",
+      "radicado": "2017 - 00323"
+    },
+    "medidascautelares": {
+      "bienes": "apto 101 torre 20",
+
+      "fecha": {
+        "ordenamedidascautelares": "24/11/2017"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "1/08/2018"
+        },
+        "id": 8469
+      },
+      "placas": "051-162001",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "15/02/2018",
+          "aportonotif": "15/02/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "22/02/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "sentencia": "11/6/18",
+        "solicitudliquidacion": "11/13/18"
+      }
+    }
+  },
+  {
+    "carpeta": 401,
+
+    "deudor": {
+      "direccion": "calle 12 a no 71 b - 60",
+      "email": "arthurlingo64@hotmail.com",
+      "id": 79396995,
+      "name": "arturo lince gomez",
+      "tel": {
+        "celular": 31088445603
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "01/03/20108            2/03/2018",
+        "presentaciondemanda": "22/02/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 22.592.583",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "29/01/2023 pendiente juzgado ejecucion",
+      "expediente": 1.100140030212018e22,
+      "fecha": {
+        "entregagarantiasabogado": "15/02/2018",
+        "vencimientopagare": "27/0/2021"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 87823
+      },
+      "origen": "21 cm",
+      "procesotype": "hipotecario",
+      "radicado": "2018 - 00236"
+    },
+    "medidascautelares": {
+      "bienes": "casa 176",
+
+      "fecha": {
+        "decretosecuestro": "27/08/2018",
+        "ordenamedidascautelares": "1/03/20108",
+        "radicacion": "28/06/2018",
+        "retirooficios": "9/03/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "9/03/2018"
+        },
+        "id": 832
+      },
+      "placas": "50c-1645938",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "8/04/2018",
+          "aportonotif": "10/04/2018"
+        },
+        "resultado": "abierto"
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "19/04/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "personal"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "aprobracionliquidacion": "27/08/2018",
+        "aprovacioncostsas": "11/07/2018",
+        "presentacionliquidacion": "02/08/2018",
+        "sentencia": "25/096/2018"
+      },
+      "valorcostas": 20
+    }
+  },
+  {
+    "carpeta": 405,
+
+    "codeudor": {
+      "direccion": "calle 56 # 17 - 03 casa 65 neiva",
+      "id": 12192291,
+      "name": "andres enrique ibarra acosta",
+      "tel": {
+        "fijo": 8626344
+      }
+    },
+    "deudor": {
+      "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
+      "email": "andibarracosta@gmail.com",
+      "id": 900545720,
+      "name": "creas soluciones s.a.s",
+      "tel": {
+        "celular": 3107982028
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "22/03/2018",
+        "presentaciondemanda": "28/02/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 11.949.471",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "7 cme",
+      "expediente": 1.1001400305620181e22,
+      "fecha": {
+        "entregagarantiasabogado": "15/02/2018",
+        "vencimientopagare": "20/06/2018"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": 4550087219
+      },
+      "origen": "56 cm",
+      "procesotype": "singular",
+      "radicado": "2018 - 00221"
+    },
+    "medidascautelares": {
+      "bienes": "bancos",
+
+      "fecha": {
+        "ordenamedidascautelares": "22/03/2018"
+      },
+      "medidasolicita": "embargo de dineros en bancos",
+      "oficio": {
+        "fecha": {
+          "": "2/04/2018"
+        },
+        "id": 747
+      },
+
+      "respuesta": {
+        "embargo": false
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "18/05/2018",
+          "aportonotif": "18/05/2018"
+        },
+        "resultado": "abierto"
+      },
+      "292": {
+        "fecha": {
+          "aportanotif": "18/05/2018"
+        },
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "18/05/2018"
+      },
+      "fisico": false,
+      "type": {
+        "": "certimail"
+      }
+    },
+
+    "terminacion": {
+      "fecha": {
+        "sentencia": "6/7/18"
+      }
+    }
+  },
+  {
+    "carpeta": 461,
+
+    "deudor": {
+      "direccion": "diagonal 2 no 21 b-20",
+      "email": "leidyyaneth.lyv@gmail.com",
+      "id": 52883958,
+      "name": "leidy yaneth vidal rodriguez"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "contestacion demanda",
+      "fecha": {
+        "mandamientodepago": "7/05/2019",
+        "presentaciondemanda": "12/07/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 24.501.535",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+
+      "expediente": 1.100141890142019e22,
+      "fecha": {
+        "entregagarantiasabogado": "5/07/2018",
+        "vencimientopagare": "4/02/2021 // 16/02/2021"
+      },
+      "locationjuzgado": "jaramillo",
+      "obligacion": {
+        "1": "american 0377814037749057",
+        "2": "visa 4513083943843365 // master 5303729958258417"
+      },
+      "origen": "14 pcycm",
+      "procesotype": "singular",
+      "radicado": "2019 - 00656"
+    },
+    "medidascautelares": {
+      "bienes": "predio rural",
+
+      "fecha": {
+        "ordenamedidascautelares": "14/05/2019"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "14/05/2019"
+        },
+        "id": 937
+      },
+      "placas": "372-19300",
+      "respuesta": {
+        "embargo": false
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "28/09/2019",
+          "aportonotif": "28/09/2019"
+        },
+        "resultado": false
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": true,
+      "fecha": {
+        "autonotificado": "29/01/2020"
+      },
+      "fisico": true,
+      "type": {
+        "": "certimail y correo"
+      }
+    }
+  },
+  {
+    "carpeta": 489,
+
+    "deudor": {
+      "direccion": "calle 163 b no 50-80  interior 10 apt 231 conjunto la estancia iii",
+      "email": "sandrabogota2007@yahoo.com",
+      "id": 51987570,
+      "name": "sandra patricia pacheco ramirez"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "embargo de remanentes juzgado 27 proceso 2019 - 00251",
+      "fecha": {
+        "mandamientodepago": "4/10/2018",
+        "presentaciondemanda": "20/09/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 18.100.699",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+      "ejecucion": "5 cme",
+      "expediente": 1.100141890082018e22,
+      "fecha": {
+        "entregagarantiasabogado": "3/09/2018",
+        "vencimientopagare": "15/05/2021 // 5/07/2021 // 5/07/2021"
+      },
+      "locationjuzgado": "juzgados ejecucion",
+      "obligacion": {
+        "1": "audioprestamo",
+        "2": "0377816345049476 // 4513070259455355 // 5303720114305077"
+      },
+      "origen": "8 pcycm",
+      "procesotype": "singular",
+      "radicado": "2018 - 00785"
+    },
+    "medidascautelares": {
+      "bienes": "apto 231",
+
+      "fecha": {
+        "ordenamedidascautelares": "20/11/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "20/11/2018"
+        },
+        "id": 2288
+      },
+      "placas": "50n - 20247423",
+      "respuesta": {
+        "embargo": "revocado por oficina de registro"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "2/11/2018",
+          "aportonotif": "2/11/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": true,
+
+      "fisico": false,
+      "type": {
+        "": "correo"
+      }
+    }
+  },
+  {
+    "carpeta": 494,
+
+    "deudor": {
+      "direccion": "carrera 6 no 6-59",
+      "email": "mopadinco@yahoo.com",
+      "id": 13222728,
+      "name": "modesto pineda perez"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "12/10/2018",
+        "presentaciondemanda": "4/10/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 27.373.832",
+      "ciudadjuzgado": "chia",
+      "depto": "cundinamarca",
+
+      "expediente": 2.517540890032018e22,
+      "fecha": {
+        "entregagarantiasabogado": "18/09/2018",
+        "vencimientopagare": "14/09/2021 // 07/05/2021"
+      },
+      "locationjuzgado": "chia",
+      "obligacion": {
+        "1": "audioprestamo",
+        "2": 5491570347356810
+      },
+      "origen": "3 cm",
+      "procesotype": "singular",
+      "radicado": "2018 - 00602"
+    },
+    "medidascautelares": {
+      "bienes": "casa",
+
+      "fecha": {
+        "ordenamedidascautelares": "22/10/2018"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "11/02/2019"
+        },
+        "id": "1939-2018"
+      },
+      "placas": "yesid",
+      "respuesta": {
+        "embargo": true
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "26/11/2018",
+          "aportonotif": "6/12/2018"
+        },
+        "resultado": true
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": false,
+
+      "fisico": true,
+      "type": {
+        "": "certimail"
+      }
+    }
+  },
+  {
+    "carpeta": 497,
+
+    "codeudor": {
+      "direccion": "diagonal 77b no 119 a-74 apto 504 int6",
+      "id": 51955296,
+      "name": "flor angela rodriguez",
+      "tel": {
+        "fijo": "f 2286617"
+      }
+    },
+    "deudor": {
+      "direccion": "diagonal 77b no 119 a-74 apto 504 int6",
+      "email": "dcentro@pcpplasticos.com",
+      "id": 3208569,
+      "name": "floresmiro aponte acosta"
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "31/07/2019",
+        "presentaciondemanda": "12/10/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 24.807.317",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+
+      "expediente": 1.100141890132019e22,
+      "fecha": {
+        "entregagarantiasabogado": "8/10/2018",
+        "vencimientopagare": "31/11/2024"
+      },
+      "locationjuzgado": "hmm piso 5",
+      "obligacion": {
+        "1": "20990123680  7/  377813468472239",
+        "2": "4513079359765043 // 53037220341399596"
+      },
+      "origen": "13 pcycm",
+      "procesotype": "hipotecaro",
+      "radicado": "2019 - 00708"
+    },
+    "medidascautelares": {
+      "bienes": "apto 504",
+
+      "fecha": {
+        "ordenamedidascautelares": "13/02/2020"
+      },
+      "medidasolicita": "embargo de inmueble",
+      "oficio": {
+        "fecha": {
+          "": "13/02/2020"
+        },
+        "id": 422
+      },
+
+      "respuesta": {
+        "embargo": "pendiente cambio oficio"
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "18/02/2020",
+          "aportonotif": "18/02/2020"
+        }
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": true,
+
+      "fisico": false,
+      "type": {
+        "": "correo"
+      }
+    }
+  },
+  {
+    "carpeta": 506,
+
+    "deudor": {
+      "direccion": "calle 2 a no 5-22 apto 503",
+      "email": "joalvato09@hotmail.com",
+      "id": 11230400,
+      "name": "jose alfonso vasquez tovar",
+      "tel": {
+        "celular": 3123703828
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecución",
+      "fecha": {
+        "mandamientodepago": "17/01/2019",
+        "presentaciondemanda": "7/12/2018"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 29.416.113",
+      "ciudadjuzgado": "la calera",
+      "depto": "cundinamarca",
+
+      "expediente": 2.537740890012018e22,
+      "fecha": {
+        "entregagarantiasabogado": "26/11/2018",
+        "vencimientopagare": "1/03/2026"
+      },
+      "locationjuzgado": "la calera",
+      "obligacion": {
+        "1": 2490084469
+      },
+      "origen": "001 pm",
+      "procesotype": "singular",
+      "radicado": "2018 - 00371"
+    },
+    "medidascautelares": {
+      "bienes": "apto 503",
+
+      "fecha": {
+        "ordenamedidascautelares": "28/01/2019"
+      },
+      "medidasolicita": "embargo inmuebles",
+      "oficio": {
+        "fecha": {
+          "": "w"
+        },
+        "id": 162
+      },
+      "placas": "50n - 20288831",
+      "respuesta": {
+        "embargo": false
+      }
+    },
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "24/04/2019",
+          "aportonotif": "24/04/2019"
+        },
+        "resultado": true
+      },
+      "292": {
+        "resultado": true
+      },
+      "certimail": false,
+
+      "fisico": true,
+      "type": "correo"
+    }
+  },
+  {
+    "carpeta": 529,
+
+    "codeudor": {
+      "direccion": "kr 81 no. 127 - 46 torre 1 apt 401",
+      "id": 19299851,
+      "name": "marco tulio sanchez medina",
+      "tel": {
+        "fijo": 6139147
+      }
+    },
+    "deudor": {
+      "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
+      "email": "yadelcis@hotmail.com",
+      "id": 51813018,
+      "name": "sandra leonor paez murcia",
+      "tel": {
+        "celular": 3134386087
+      }
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "ejecucion",
+      "fecha": {
+        "presentaciondemanda": "7/10/2020"
+      }
+    },
+
+    "juzgado": {
+      "capitaladeudado": "$ 35.608.653",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+
+      "expediente": 1.10014003042202e22,
+      "fecha": {
+        "entregagarantiasabogado": "7/10/2020"
+      },
+      "locationjuzgado": "hmm piso 13",
+      "obligacion": {
+        "1": 2020084294,
+        "2": "2020087484 // 4594250317705437 //5303723260933890"
+      },
+      "origen": "42 cm",
+      "procesotype": "singular",
+      "radicado": "2020 - 00535"
+    },
+    "medidascautelares": {},
+    "notificaciones": {
+      "291": {
+        "fecha": {
+          "recibido": "22/06/2021"
+        },
+
+        "resultado": true
+      },
+      "292": {},
+      "certimail": true,
+
+      "fisico": true,
+      "type": {}
+    }
+  },
+  {
+    "carpeta": 530,
+
+    "deudor": {
+      "direccion": "av boyaca 63d - 26 oficina 103",
+
+      "id": 900520023,
+      "name": "dimoin colombia s.a.s."
+    },
+    "etapaprocesal": {
+      "etapaprocesal": "notificacion"
+    },
+    "fecha": {
+      "suspencionproceso": ","
+    },
+    "juzgado": {
+      "capitaladeudado": "$ 15.324.570",
+      "ciudadjuzgado": "bogota",
+      "depto": "cundinamarca",
+
+      "expediente": 1.10014003068202e22,
+      "fecha": {
+        "entregagarantiasabogado": "5/09/2020"
+      },
+      "locationjuzgado": "hmm piso 15",
+      "obligacion": {
+        "1": 65886140334,
+        "2": 4594260446916180
+      },
+      "origen": "50 pcycm/ 68 cm",
+      "procesotype": "singular",
+      "radicado": "2020-1021"
+    },
+    "medidascautelares": {},
+    "notificaciones": {
+      "291": {},
+      "292": {},
+
+      "type": {}
+    }
+  }
+]
