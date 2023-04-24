@@ -17,7 +17,7 @@ import { poiret } from "./typeface";
 import card from "##/card.module.css";
 
 import type { Route } from 'next';
-import { intActuacion, intProceso } from "../app/Procesos/procesos";
+import { intActuacion, intProceso } from "#@/app/Procesos/procesos";
 
 export default function Card<T extends string> ( {
   index,
@@ -39,11 +39,11 @@ export default function Card<T extends string> ( {
   const locateDemandado = title.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
   const extractDemandado = title.slice( locateDemandado + 10 ).toLocaleLowerCase();
   const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
-'' );
+    '' );
   const splitDemandado = trimDemandado.split( " " );
   const splitDemandadotoUnify = splitDemandado.map(
     ( noa ) => noa.replace( /^./,
-        str => str.toUpperCase() )
+      str => str.toUpperCase() )
   );
   const unifyDemandado = splitDemandadotoUnify.join( " " );
   const hasActuaciones = () => {

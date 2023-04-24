@@ -79,28 +79,20 @@ export const Search = ( { procesos }: { procesos: intProceso[]; } ) => {
         }
         return proceso.fechaUltimaActuacion;
       };
-      const titleFixed = () => {
-        if ( hasActuaciones() ) {
-          return proceso.sujetosProcesales;
-        } if ( isPrivado() ) {
-          return '';
-        }
-        return unifyDemandado;
-      };
+
       if (
         proceso.sujetosProcesales.toLowerCase().indexOf( search.toLowerCase() ) ===
         -1
       ) {
         return;
       }
-      rows.push(
+      isPrivado() === false && rows.push(
         <LinkCard
-          key={ index }
           icon={ hasContent()
             ? hasContent()
             : 'switch_access_shortcut_add'
           }
-          name={ titleFixed() }
+          name={ proceso.sujetosProcesales }
           href={ ( "/Procesos/" + proceso.llaveProceso ) as Route }
         />
       );
