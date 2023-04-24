@@ -68,8 +68,17 @@ export const Nav = ( { procesos }: { procesos: intProceso[]; } ) => {
         : ""
     );
     const month = months[ ultimAct.getMonth() ];
-    const locateDemandado = proceso.sujetosProcesales.search( /(causante|Demandado)/ );
+    const locateDemandado = proceso.sujetosProcesales.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
     const extractDemandado = proceso.sujetosProcesales.slice( locateDemandado + 10 ).toLocaleLowerCase();
+    const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
+      '' );
+    const splitDemandado = trimDemandado.split( " " );
+    const splitDemandadotoUnify = splitDemandado.map(
+      ( noa ) => noa.replace( /^./,
+        str => str.toUpperCase() )
+    );
+    const unifyDemandado = splitDemandadotoUnify.join( " " );
+
     if (
       proceso.sujetosProcesales.toLowerCase().indexOf( search.toLowerCase() ) ===
       -1
@@ -78,8 +87,7 @@ export const Nav = ( { procesos }: { procesos: intProceso[]; } ) => {
     }
     rows.push(
       <LinkCard
-        name={ extractDemandado.replace( /^../,
-          str => str.toUpperCase() ) }
+        name={ unifyDemandado }
         href={ `/Procesos/${ proceso.llaveProceso }` } icon={ "book" } />
     );
   } );

@@ -15,7 +15,6 @@ import "material-symbols";
 import NavItem from "#@/components/link";
 
 import layout from "#s/layout.module.scss";
-import { Search } from "../app/context-input-search";
 import { getProcesosOwn } from "../app/Procesos/api/getProcesos";
 
 const poiret = Poiret_One({

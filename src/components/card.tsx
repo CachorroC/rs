@@ -36,6 +36,29 @@ export default function Card<T extends string> ( {
   icon?: string;
   ultimaActDate: string;
 } ) {
+  const locateDemandado = title.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+  const extractDemandado = title.slice( locateDemandado + 10 ).toLocaleLowerCase();
+  const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
+'' );
+  const splitDemandado = trimDemandado.split( " " );
+  const splitDemandadotoUnify = splitDemandado.map(
+    ( noa ) => noa.replace( /^./,
+        str => str.toUpperCase() )
+  );
+  const unifyDemandado = splitDemandadotoUnify.join( " " );
+  const hasActuaciones = () => {
+    if ( locateDemandado === -1 ) {
+      return true;
+    }
+    return false;
+  };
+  const isPrivado = () => {
+    if ( title.match( /-+.*\[.*\].*-+/gi ) ) {
+      return true;
+    }
+    return false;
+
+  };
   const hasContent = () => {
     if ( content === null ) {
       return "no hay contenido";
@@ -46,9 +69,17 @@ export default function Card<T extends string> ( {
 
     return content;
   };
+  const titleFixed = () => {
+    if ( hasActuaciones() ) {
+      return title;
+    } if ( isPrivado() ) {
+      return '';
+    }
+    return unifyDemandado;
+  };
   return (
     <div className={ card.layout }>
-      <h2 className={ card.title }>{ title }</h2>
+      <h2 className={ card.title }>{ titleFixed() }</h2>
       <p className={ card.content }>{ hasContent() }</p>
       <sub className={ card.sub }>{ `${ index } de ${ array.length }` }</sub>
       <sub className={ card.date }>{ ultimaActDate }</sub>

@@ -75,10 +75,10 @@
   justify-items: center;
   align-items: center;
   grid-area: sidenav;
-  background-color: var(--primary-container);
+  background-color: var(--secondary-container);
   box-sizing: border-box;
   box-shadow: var(--dp3);
-  color: var(--on-surface);
+  color: var(--on-secondary-container);
   border: 2px dashed var(--secondary);
   border-radius: 2vmin;
   overflow-y: hidden;

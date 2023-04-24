@@ -8,10 +8,13 @@ export default async function Page () {
 
   const Proceso = procesos.map(
     ( proceso, index, array ) => {
-      const dateActuacion = new Date( proceso.fechaUltimaActuacion ? proceso.fechaUltimaActuacion : '' );
+      const dateActuacion = new Date( proceso.fechaUltimaActuacion
+? proceso.fechaUltimaActuacion
+: '' );
       const monthActuacion = months[ dateActuacion.getMonth() ];
       const dayActuacion = dateActuacion.getDate().toLocaleString();
       const id = ( proceso.idProceso + index ).toString();
+
       return (
         <Card
           key={ index }

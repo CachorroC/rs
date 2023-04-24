@@ -2,7 +2,7 @@ import typeface from "##/typeface.module.css";
 
 import modal from "##/modal.module.css";
 
-import SearchBar, { Search } from "#@/app/context-input-search";
+import SearchBar from "#@/app/context-input-search";
 
 import { llaves } from "#@/lib/llaves";
 

@@ -4,70 +4,102 @@ import layout from "##/layout.module.css";
 import { notFound } from "next/navigation";
 import Card from "#@/components/card";
 import { intProceso } from "../app/Procesos/procesos";
+import { Suspense } from "react";
+import CardSkeleton from "./card-skeleton";
 
-export async function fetchProceso() {
-  const res = await fetch(`${getBaseUrl()}/api/procesos`);
 
-  if (!res.ok) {
-    notFound();
-  }
-}
 
-export async function SearchItems({ search }: { search: string }) {
+export async function SearchItems ( { search }: { search: string; } ) {
   const rows: any[] = [];
 
-  const procesos = (await fetch(`${getBaseUrl()}/api/procesos`).then((res) =>
-    res.json()
-  )) as intProceso[];
+  const procesos = (
+    await fetch( `${ getBaseUrl() }/Procesos/api` ).then(
+      ( res ) =>
+        res.json()
+    )
+  ) as intProceso[];
 
-  procesos.forEach((proceso, index, array) => {
-    if (
-      proceso.sujetosProcesales.toLowerCase().indexOf(search.toLowerCase()) ===
-      -1
-    ) {
-      return;
+  procesos.forEach(
+    ( proceso, index, array ) => {
+      const locateDemandado = proceso.sujetosProcesales.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+      const extractDemandado = proceso.sujetosProcesales.slice( locateDemandado + 10 ).toLocaleLowerCase();
+      const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
+        '' );
+      const splitDemandado = trimDemandado.split( " " );
+      const splitDemandadotoUnify = splitDemandado.map(
+        ( noa ) => noa.replace( /^./,
+          str => str.toUpperCase() )
+      );
+      const unifyDemandado = splitDemandadotoUnify.join( " " );
+      const hasActuaciones = () => {
+        if ( locateDemandado === -1 ) {
+          return true;
+        }
+        return false;
+      };
+      const isPrivado = () => {
+        if ( proceso.sujetosProcesales.match( /-+.*\[.*\].*-+/gi ) ) {
+          return true;
+        }
+        return false;
+
+      };
+      const hasContent = () => {
+        if ( proceso.fechaUltimaActuacion === null ) {
+          return "no hay contenido";
+        }
+        if ( proceso.fechaUltimaActuacion === undefined ) {
+          return "no se ha definido el contenido";
+        }
+        return proceso.fechaUltimaActuacion;
+      };
+      const titleFixed = () => {
+        if ( hasActuaciones() ) {
+          return proceso.sujetosProcesales;
+        } if ( isPrivado() ) {
+          return '';
+        }
+        return unifyDemandado;
+      };
+      if (
+        proceso.sujetosProcesales.toLowerCase().indexOf( search.toLowerCase() ) ===
+        -1
+      ) {
+        return;
+      }
+
+      rows.push(
+        <Card
+          key={ index }
+          index={ index }
+          array={ array }
+          content={ hasContent() }
+          href={ `/Procesos?${ proceso.llaveProceso }` }
+          title={ titleFixed() } ultimaActDate={ hasContent() } />
+      );
     }
-
-    rows.push(
-      <Card
-        key={index}
-        index={index}
-        array={array}
-        content={proceso.fechaUltimaActuacion}
-        href={`/Procesos/${proceso.llaveProceso}`}
-        title={proceso.sujetosProcesales}
-      />
-    );
-  });
-
-  return (
-    <>
-      <div className={searchbar.itemscontainer}>{rows}</div>
-    </>
   );
-}
 
-function ItemSkeleton() {
   return (
-    <div className={layout.card}>
-      <h1 className={searchbar.title}>{"Deudor"}</h1>
-      <span className="material-symbols-outlined">loading</span>
-      <i>
-        <strong>{"dia/mes/año"}</strong>
-      </i>
-    </div>
-  );
-}
+    <Suspense fallback={
+      <div className={ layout.sidenav }>
+        <CardSkeleton key={ 1 } />
+        <CardSkeleton key={ 2 } />
+        <CardSkeleton key={ 3 } />
+        <CardSkeleton key={ 4 } />
+        <CardSkeleton key={ 5 } />
+        <CardSkeleton key={ 6 } />
+        <CardSkeleton key={ 7 } />
+        <CardSkeleton key={ 8 } />
+        <CardSkeleton key={ 9 } />
+        <CardSkeleton key={ 10 } />
 
-export function SearchItemsEskeleton() {
-  return (
-    <div className="space-y-6 pb-[5px]">
-      <div className="grid grid-cols-4 gap-6">
-        <ItemSkeleton key={1} />
-        <ItemSkeleton key={2} />
-        <ItemSkeleton key={3} />
-        <ItemSkeleton key={4} />
       </div>
-    </div>
-  );
+    }>
+      <div className={ layout.sidenav }>{ rows }</div>
+    </Suspense>
+  )
+
+    ;
 }
+

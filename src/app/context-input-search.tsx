@@ -45,24 +45,68 @@ const SearchBar = () => {
 export const Search = ( { procesos }: { procesos: intProceso[]; } ) => {
   const [ search ] = useSearch();
   const rows: any[] = [];
-  procesos.forEach( ( proceso, index, array ) => {
-    if (
-      proceso.sujetosProcesales.toLowerCase().indexOf( search.toLowerCase() ) ===
-      -1
-    ) {
-      return;
-    }
-    rows.push(
-      <LinkCard
-        key={ index }
-        icon='switch_access_shortcut_add'
-        name={ proceso.sujetosProcesales }
-        href={ ( "/Procesos/" + proceso.llaveProceso ) as Route }
-      />
-    );
-  } );
+  procesos.forEach(
+    ( proceso, index, array ) => {
+      const locateDemandado = proceso.sujetosProcesales.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+      const extractDemandado = proceso.sujetosProcesales.slice( locateDemandado + 10 ).toLocaleLowerCase();
+      const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
+        '' );
+      const splitDemandado = trimDemandado.split( " " );
+      const splitDemandadotoUnify = splitDemandado.map(
+        ( noa ) => noa.replace( /^./,
+          str => str.toUpperCase() )
+      );
+      const unifyDemandado = splitDemandadotoUnify.join( " " );
+      const hasActuaciones = () => {
+        if ( locateDemandado === -1 ) {
+          return true;
+        }
+        return false;
+      };
+      const isPrivado = () => {
+        if ( proceso.sujetosProcesales.match( /-+.*\[.*\].*-+/gi ) ) {
+          return true;
+        }
+        return false;
+
+      };
+      const hasContent = () => {
+        if ( proceso.fechaUltimaActuacion === null ) {
+          return "no hay contenido";
+        }
+        if ( proceso.fechaUltimaActuacion === undefined ) {
+          return "no se ha definido el contenido";
+        }
+        return proceso.fechaUltimaActuacion;
+      };
+      const titleFixed = () => {
+        if ( hasActuaciones() ) {
+          return proceso.sujetosProcesales;
+        } if ( isPrivado() ) {
+          return '';
+        }
+        return unifyDemandado;
+      };
+      if (
+        proceso.sujetosProcesales.toLowerCase().indexOf( search.toLowerCase() ) ===
+        -1
+      ) {
+        return;
+      }
+      rows.push(
+        <LinkCard
+          key={ index }
+          icon={ hasContent()
+            ? hasContent()
+            : 'switch_access_shortcut_add'
+          }
+          name={ titleFixed() }
+          href={ ( "/Procesos/" + proceso.llaveProceso ) as Route }
+        />
+      );
+    } );
   return (
-    <Suspense fallback={ <div className={ layout.procesossearchbox }>
+    <Suspense fallback={ <div className={ layout.sidenav }>
       <LinkCardSkeleton key={ 1 } />
       <LinkCardSkeleton key={ 2 } />
       <LinkCardSkeleton key={ 3 } />

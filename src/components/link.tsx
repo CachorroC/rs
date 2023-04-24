@@ -10,15 +10,33 @@ import navbar from "##/navbar.module.css";
 import { useNavigator } from "#@/app/navigator-context";
 import type { Route } from 'next';
 
-export default function LinkCard<X extends string>({
+export default function LinkCard<T extends string> ( {
   icon,
   name,
   href,
 }: {
   icon: string;
   name: string;
-  href: Route<X> | URL;
-}) {
+  href: Route<T> | URL;
+} ) {
+
+  const locateDemandado = name.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+  const extractDemandado = name.slice( locateDemandado + 10 ).toLocaleLowerCase();
+  const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
+    '' );
+  const splitDemandado = trimDemandado.split( " " );
+  const splitDemandadotoUnify = splitDemandado.map(
+    ( noa ) => noa.replace( /^./,
+      str => str.toUpperCase() )
+  );
+  const unifyDemandado = splitDemandadotoUnify.join( " " );
+  const isPrivado = () => {
+    if ( name.match( /-+.*\[.*\].*-+/gi ) ) {
+      return true;
+    }
+    return false;
+
+  };
   const segment = useSelectedLayoutSegment();
   const [
     isOpen, setIsOpen
@@ -28,20 +46,22 @@ export default function LinkCard<X extends string>({
 
   return (
     <Link
-      onClick={() => {
-        setIsOpen(false);
-      }}
-      href={href}
-      className={navbar.link}
+      onClick={ () => {
+        setIsOpen( false );
+      } }
+      href={ href }
+      className={ navbar.link }
     >
-      {icon && (
+      { icon && (
         <span className="material-symbols-outlined">
-          {isActive
+          { isActive
             ? "heart"
-            : icon}
+            : icon }
         </span>
-      )}
-      <p className={navbar.title}>{name}</p>
+      ) }
+      <p className={ navbar.name }>{ isPrivado()
+        ? ''
+        : unifyDemandado }</p>
     </Link>
   );
 }

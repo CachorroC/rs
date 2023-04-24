@@ -11,7 +11,8 @@ export default async function Page ( {
   params: { llaveProceso: string; };
 } ) {
   const proceso = await getProcesoOwn( params.llaveProceso );
-  const actuaciones = await getActuaciones( proceso.idProceso, proceso.llaveProceso );
+  const actuaciones = await getActuaciones( proceso.idProceso,
+proceso.llaveProceso );
   return (
     <div className={ layout.llaveProcesos }>
       {
