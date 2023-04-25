@@ -1,6 +1,6 @@
 import { getProcesosOwn } from "#@/app/Procesos/api/getProcesos";
 import Card from "#@/components/card";
-import layout from "##/layout.module.css";
+import layout from "#@/styles/css/layout.module.css";
 const months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 export default async function Page () {
@@ -9,8 +9,8 @@ export default async function Page () {
   const Proceso = procesos.map(
     ( proceso, index, array ) => {
       const dateActuacion = new Date( proceso.fechaUltimaActuacion
-? proceso.fechaUltimaActuacion
-: '' );
+        ? proceso.fechaUltimaActuacion
+        : '' );
       const monthActuacion = months[ dateActuacion.getMonth() ];
       const dayActuacion = dateActuacion.getDate().toLocaleString();
       const id = ( proceso.idProceso + index ).toString();

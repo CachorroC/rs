@@ -4,9 +4,9 @@ import { useNavigator } from "#@/app/navigator-context";
 
 import React, { Suspense } from "react";
 
-import box from "##/box.module.css";
+import box from "#@/styles/css/box.module.css";
 
-import layout from "#s/layout.module.scss";
+import layout from "#@/styles/scss/layout.module.scss";
 
 import { useSearch } from "#@/app/search-context";
 

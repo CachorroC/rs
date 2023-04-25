@@ -1,6 +1,6 @@
-import searchbar from "##/searchbar.module.css";
+import searchbar from "#@/styles/css/searchbar.module.css";
 import { getBaseUrl } from "#@/lib/getBaseUrl";
-import layout from "##/layout.module.css";
+import layout from "#@/styles/css/layout.module.css";
 import { notFound } from "next/navigation";
 import Card from "#@/components/card";
 import { intProceso } from "../app/Procesos/procesos";

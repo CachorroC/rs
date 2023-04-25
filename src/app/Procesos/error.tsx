@@ -2,23 +2,23 @@
 
 import { useEffect } from "react";
 
-import box from "##/box.module.css";
+import box from "#@/styles/css/box.module.css";
 
-export default function Error({
+export default function Error ( {
   error,
   reset,
 }: {
   error: Error;
   reset: () => void;
-}) {
-  useEffect(() => {
+} ) {
+  useEffect( () => {
     // Log the error to an error reporting service
-    console.error(error);
+    console.error( error );
   },
-  [ error ]);
+    [ error ] );
 
   return (
-    <div className={box.container}>
+    <div className={ box.container }>
       <h2>Something went wrong!</h2>
       <button
         onClick={

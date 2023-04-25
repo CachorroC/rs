@@ -6,7 +6,7 @@ import { intProceso } from "#@/app/Procesos/procesos";
 import navbar from "#@/styles/css/navbar.module.css";
 import Link from "next/link";
 import { poiret } from "#@/components/typeface";
-import layout from "#s/layout.module.scss";
+import layout from "#@/styles/scss/layout.module.scss";
 
 import Card from "#@/components/card";
 import { useSearch } from "#@/app/search-context";

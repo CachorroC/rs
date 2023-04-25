@@ -1,12 +1,7 @@
 "use client";
-
 import Link from "next/link";
-
 import { useSelectedLayoutSegment } from "next/navigation";
-
-
-
-import navbar from "##/navbar.module.css";
+import navbar from "#@/styles/css/navbar.module.css";
 import { useNavigator } from "#@/app/navigator-context";
 import type { Route } from 'next';
 
@@ -18,16 +13,26 @@ export default function LinkCard<T extends string> ( {
   icon: string;
   name: string;
   href: Route<T> | URL;
+  
+  
 } ) {
 
   const locateDemandado = name.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+  if ( locateDemandado === -1 ) throw new Error("missing demandado");
   const extractDemandado = name.slice( locateDemandado + 10 ).toLocaleLowerCase();
   const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
     '' );
   const splitDemandado = trimDemandado.split( " " );
   const splitDemandadotoUnify = splitDemandado.map(
-    ( noa ) => noa.replace( /^./,
-      str => str.toUpperCase() )
+    ( nombreOapellido, index ) => {
+      if ( index >= 5 ) return;
+      console.log( nombreOapellido );
+      if ( nombreOapellido === '|' ) return;
+      if ( nombreOapellido.includes( 's.a.s' ) ) return;
+      if ( nombreOapellido.includes( '(emplazado)' ) ) return;
+      return nombreOapellido.replace( /^./,
+        str => str.toUpperCase() );
+    }
   );
   const unifyDemandado = splitDemandadotoUnify.join( " " );
   const isPrivado = () => {

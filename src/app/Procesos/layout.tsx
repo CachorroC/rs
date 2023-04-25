@@ -1,5 +1,5 @@
 import { getProcesosOwn } from "#@/app/Procesos/api/getProcesos";
-import layout from "##/layout.module.css";
+import layout from "#@/styles/css/layout.module.css";
 import { ReactNode } from "react";
 import { Search } from "#@/app/context-input-search";
 export default async function Layout ( { children }: { children: ReactNode; } ) {

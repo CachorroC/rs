@@ -1,21 +1,5 @@
-import typeface from "##/typeface.module.css";
-
 import Link from "next/link";
-
-import {
-  Key,
-  ReactElement,
-  JSXElementConstructor,
-  ReactFragment,
-  ReactPortal,
-} from "react";
-
-import box from "##/box.module.css";
-
-import { poiret } from "./typeface";
-
-import card from "##/card.module.css";
-
+import card from "#@/styles/css/card.module.css";
 import type { Route } from 'next';
 import { intActuacion, intProceso } from "#@/app/Procesos/procesos";
 
@@ -37,13 +21,22 @@ export default function Card<T extends string> ( {
   ultimaActDate: string;
 } ) {
   const locateDemandado = title.search( /(demandado|causante)+:(?:\s*?|'\s*?')/gi );
+  if ( locateDemandado === -1 )throw new Error("missing");
+  ;
   const extractDemandado = title.slice( locateDemandado + 10 ).toLocaleLowerCase();
   const trimDemandado = extractDemandado.replace( /^\s+|\s+$/gm,
     '' );
   const splitDemandado = trimDemandado.split( " " );
   const splitDemandadotoUnify = splitDemandado.map(
-    ( noa ) => noa.replace( /^./,
-      str => str.toUpperCase() )
+    ( nombreOapellido, index ) => {
+      if ( index >= 5 ) return;
+      console.log( nombreOapellido );
+      if ( nombreOapellido === '|' ) return;
+      if ( nombreOapellido.includes( 's.a.s' ) ) return;
+      if ( nombreOapellido.includes( '(emplazado)' ) ) return;
+      return nombreOapellido.replace( /^./,
+        str => str.toUpperCase() );
+    }
   );
   const unifyDemandado = splitDemandadotoUnify.join( " " );
   const hasActuaciones = () => {

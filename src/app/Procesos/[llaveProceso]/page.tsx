@@ -1,9 +1,9 @@
 import { getProcesoOwn } from "#@/app/Procesos/api/getProcesos";
 import { getActuaciones } from "./Actuaciones/getActuaciones";
 import type { Route } from 'next';
-import layout from "##/layout.module.css";
+import layout from "#@/styles/css/layout.module.css";
 import Card from "#@/components/card";
-import box from '##/box.module.css';
+import box from '#@/styles/css/box.module.css';
 const months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 export default async function Page ( {
   params,
@@ -12,7 +12,7 @@ export default async function Page ( {
 } ) {
   const proceso = await getProcesoOwn( params.llaveProceso );
   const actuaciones = await getActuaciones( proceso.idProceso,
-proceso.llaveProceso );
+    proceso.llaveProceso );
   return (
     <div className={ layout.llaveProcesos }>
       {

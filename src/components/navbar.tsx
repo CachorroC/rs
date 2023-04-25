@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "##/navbar.module.css";
+import styles from "#@/styles/css/navbar.module.css";
 
 import React, { ReactNode, useState } from "react";
 
@@ -14,59 +14,59 @@ import "material-symbols";
 
 import NavItem from "#@/components/link";
 
-import layout from "#s/layout.module.scss";
+import layout from "#@/styles/scss/layout.module.scss";
 import { getProcesosOwn } from "../app/Procesos/api/getProcesos";
 
-const poiret = Poiret_One({
+const poiret = Poiret_One( {
   weight: "400",
   subsets: [
     "latin", "latin-ext"
   ],
   display: "swap",
-});
+} );
 
-export default function Navbar({ children }: { children: ReactNode }) {
+export default function Navbar ( { children }: { children: ReactNode; } ) {
   const [
     isOpen, setIsOpen
-  ] = useState(false);
+  ] = useState( false );
 
-  const close = () => setIsOpen(false);
+  const close = () => setIsOpen( false );
 
   const drawerToggle = () => {
-    setIsOpen((prevState) => !prevState);
+    setIsOpen( ( prevState ) => !prevState );
   };
 
   const drawer = (
-    <div className={styles.drawer} onClick={close}>
-      {/* Procesos  */}
+    <div className={ styles.drawer } onClick={ close }>
+      {/* Procesos  */ }
     </div>
   );
 
   return (
-    <div className={layout.header}>
-      <Link href="/" className={styles.button}>
+    <div className={ layout.header }>
+      <Link href="/" className={ styles.button }>
         <span className="material-symbols-rounded">cabin</span>
       </Link>
-      <button type="button" className={styles.button} onClick={drawerToggle}>
-        {isOpen
+      <button type="button" className={ styles.button } onClick={ drawerToggle }>
+        { isOpen
           ? (
             <span className="material-symbols-rounded">pets</span>
           )
           : (
             <span className="material-symbols-rounded">star</span>
-          )}
+          ) }
       </button>
-      {children}
+      { children }
 
       <Drawer
         variant="temporary"
-        open={isOpen}
-        onClose={drawerToggle}
-        ModalProps={{
+        open={ isOpen }
+        onClose={ drawerToggle }
+        ModalProps={ {
           keepMounted: true,
-        }}
+        } }
       >
-        {drawer}
+        { drawer }
       </Drawer>
     </div>
   );

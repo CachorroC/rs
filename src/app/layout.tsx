@@ -1,6 +1,6 @@
-import "##/globals.css";
+import "#@/styles/css/globals.css";
 import Navbar from "#@/components/navbar";
-import layout from "#s/layout.module.scss";
+import layout from "#@/styles/scss/layout.module.scss";
 import type { Metadata } from "next";
 import "material-symbols";
 import Footer from "#@/components/footer";
@@ -78,8 +78,8 @@ export const metadata: Metadata = {
       {
         url: "/icons/favicon.png",
       },
-      new URL("/favicon.svg",
-        "https://app.rsasesorjuridico.com"),
+      new URL( "/favicon.svg",
+        "https://app.rsasesorjuridico.com" ),
     ],
     shortcut: "/safari-pinned-tab.svg",
     apple: "/icons/apple-touch-icon.png",
@@ -107,45 +107,45 @@ export const metadata: Metadata = {
   },
 };
 
-const roboto_mono = Roboto_Mono({
+const roboto_mono = Roboto_Mono( {
   subsets: [ "latin" ],
   variable: "--font-roboto-mono",
   display: "swap",
-});
+} );
 
-const poiret = Poiret_One({
+const poiret = Poiret_One( {
   weight: "400",
   variable: "--font-poiret",
   subsets: [
     "latin", "latin-ext"
   ],
   display: "swap",
-});
+} );
 
-export default async function RootLayout({
+export default async function RootLayout ( {
   children,
 }: {
   children: ReactNode;
-}) {
+} ) {
   const procesos = await getProcesosOwn();
 
   return (
     <html
       lang="es"
-      className={`${poiret.variable} ${roboto_mono.variable} [color-scheme: light dark]`}
+      className={ `${ poiret.variable } ${ roboto_mono.variable } [color-scheme: light dark]` }
     >
       <body>
         <SearchProvider>
           <NavProvider>
-            <div className={layout.container}>
+            <div className={ layout.container }>
               <Navbar>
                 <NavButton />
                 <SearchBar />
               </Navbar>
 
-              {children}
+              { children }
 
-              <Nav procesos={procesos} />
+              <Nav procesos={ procesos } />
               <Footer />
             </div>
           </NavProvider>
